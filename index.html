@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Semiconductor Company</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- For icons -->
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Your Semiconductor Co.</h1> <!-- Replace with your logo -->
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Innovating the Future of Semiconductors</h2>
+            <p>We design and manufacture cutting-edge semiconductor solutions for a variety of industries.</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a global leader in semiconductor solutions, providing innovative, high-quality products that power the technology of tomorrow.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Products & Services</h2>
+            <div class="services-list">
+                <div class="service">
+                    <i class="fas fa-microchip"></i>
+                    <h3>Microchips</h3>
+                    <p>High-performance microchips for a variety of applications.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Custom Solutions</h3>
+                    <p>Tailored semiconductor solutions for your specific needs.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-laptop"></i>
+                    <h3>Electronics Design</h3>
+                    <p>Designing efficient electronic circuits and systems for your business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form" method="POST" action="submit_form.php">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Your Semiconductor Co. | <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> | <a href="https://twitter.com" target="_blank">Twitter</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
