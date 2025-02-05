@@ -181,4 +181,7 @@ footer a {
     margin: 0 10px;
 }
 
-footer b {}
+.logo {
+    height: 100px;
+    width: 100px;
+}
